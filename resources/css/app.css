@@ -1,5 +1,3 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
-
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -24,4 +22,30 @@ nav a:hover {
     color: black;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+}
 
+.planning, .tarifs {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.day, .prix {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+    color: #666;
+}

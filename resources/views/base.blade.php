@@ -24,11 +24,11 @@
     <h1>Association Sportive</h1>
 
     <nav>
-<a href="#accueil">Accueil</a>
-<a href="#contact">Contact</a>
-<a href="#cours">Cours</a>
-<a href="#mentions-legales">mentions-legales</a>
-<a href="#tarifs">Tarifs</a>
+<a href="{{ route ('main.accueil') }}">Accueil</a>
+<a href="{{ route ('main.contact') }}">Contact</a>
+<a href="{{ route ('main.cours') }}">Cours</a>
+<a href="{{ route ('main.mentions-legales') }}">Mentions Légales</a>
+<a href="{{ route ('main.tarifs') }}">Tarifs</a>
 </nav>
 </header>
 
