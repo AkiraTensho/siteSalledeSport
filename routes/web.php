@@ -40,7 +40,7 @@ use App\Http\Controllers\TarifsController;
 use App\Http\Controllers\MentionsLegalesController;
 
 Route::get('/', [AccueilController::class, 'index']);
-Route::get('/about', [ContactController::class, 'index']);
-Route::get('/contact', [CoursController::class, 'index']);
-Route::get('/contact', [TarifsController::class, 'index']);
-Route::get('/contact', [MentionsLegalesController::class, 'index']);
+Route::get('/contact', [ContactController::class, 'index']);
+Route::get('/cours', [CoursController::class, 'index']);
+Route::get('/tarifs', [TarifsController::class, 'index']);
+Route::get('/mentions-legales', [MentionsLegalesController::class, 'index']);
