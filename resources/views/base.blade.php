@@ -27,8 +27,9 @@
 <a href="{{ route ('main.accueil') }}">Accueil</a>
 <a href="{{ route ('main.contact') }}">Contact</a>
 <a href="{{ route ('main.cours') }}">Cours</a>
-<a href="{{ route ('main.mentions-legales') }}">Mentions Légales</a>
 <a href="{{ route ('main.tarifs') }}">Tarifs</a>
+<a href="{{ route ('main.mentions-legales') }}">Mentions Légales</a>
+
 </nav>
 </header>
 

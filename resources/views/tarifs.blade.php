@@ -10,22 +10,22 @@
             <p>15 euros</p>
         </div> 
         
-        <div class="day">
-            <h3>Mardi - 19h30 à 21h30</h3>
-            <p>Pilate</p>
+        <div class="prix">
+            <h3>La Séance</h3>
+            <p>10 euros</p>
         </div>
         
-        <div class="day">
-            <h3>Jeudi - 20h à 22h</h3>
-            <p>Boxe anglaise</p>
+        <div class="prix">
+            <h3>Carnet de 10 séances</h3>
+            <p>90 euros</p>
         </div>
         <div class="day">
-            <h3>Vendredi - 20h à 22h</h3>
-            <p>Hiit</p>
+            <h3>Abonnement mensuel illimité sans cours</h3>
+            <p>30 euros</p>
         </div>
         <div class="day">
-            <h3>Samedi - 9h à 11h</h3>
-            <p>Yoga</p>
+            <h3>Abonnement mensuel illimité avec cours</h3>
+            <p>60 euros</p>
         </div>
 
 @endsection
