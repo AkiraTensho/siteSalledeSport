@@ -14,17 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('accueil');
 });
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/cours', function () {
+    return view('cours');
 });
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('/tarifs', function () {
+    return view('tarifs');
 });
 
 Route::get('/contact', function () {
     return view('contact');
+});
+
+Route::get('/mentions-legales', function () {
+    return view('mentions-legales');
 });
