@@ -32,3 +32,15 @@ Route::get('/contact', function () {
 Route::get('/mentions-legales', function () {
     return view('mentions-legales');
 });
+
+use App\Http\Controllers\AccueilController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CoursController;
+use App\Http\Controllers\TarifsController;
+use App\Http\Controllers\MentionsLegalesController;
+
+Route::get('/', [AccueilController::class, 'index']);
+Route::get('/about', [ContactController::class, 'index']);
+Route::get('/contact', [CoursController::class, 'index']);
+Route::get('/contact', [TarifsController::class, 'index']);
+Route::get('/contact', [MentionsLegalesController::class, 'index']);
